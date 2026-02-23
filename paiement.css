@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+html, body {
+    overflow: auto;
+}
+
+
+body{
+    display: grid;
+    
+}
+
+
+
+.partie1{
+    display: grid;
+    margin-left: 8%;
+}
+
+.retour_acceuil a{
+    color: white;
+}
+
+.retour_acceuil{
+    background-color: rgb(32, 31, 31);
+    height: 22vh;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.loupe{
+    color: white;
+    margin-top: 15vh;
+    margin-left: 5vw;
+}
+
+.user{
+    color: white;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    text-decoration: none;
+}
+
+.shopping{
+    color: white;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.image_retour{
+    margin-top: 4vh;
+    margin-right: 35px;
+    
+}
+
+.shop_profil{
+    display: flex;
+    margin-right:20px ;
+}
+
+.categorie{
+    display: flex;
+    color: azure;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.votre_panier h1{
+    margin-left: 35%;
+    margin-top: 7%;
+
+}
+
+.retour_achat{
+    margin-top: 2%;
+}
+.retour_achat span{
+    background-color: rgb(15, 168, 168);
+    margin-left: 40%;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.connexion{
+    display: grid;
+    margin-left: 38.9%;
+    margin-top: 5%;
+}
+
+.partie2{
+    margin-left: 45%;
+    margin-top: 4%;
+}
+
+.method_paiement{
+    margin-top:5vh ;
+    margin-left: 43%;
+    justify-content: space-between;
+}
+
+.method_paiement img{
+    gap: 5%;
+
+}
+
+footer{
+    margin-top: 20vh;
+    display: grid;
+    background-color: rgb(1, 17, 40);
+    height: auto;
+    color: aliceblue;
+}
+
+.footer {
+    background-color: rgb(1, 17, 40);
+    height: auto;
+    margin-top: 4vh;
+    justify-content: space-around;
+}
+
+.footer i{
+    color: azure;
+    margin-left: 15%;
+    margin-top: 4vh;
+    width: 40px;
+
+}
+
+.icon{
+    font-size: 20px;
+
+}
+
+.avis{
+    margin-top: 12vh;
+    margin-left: 25%;
+    margin-bottom: 8vh;
+}
+
+textarea{
+    margin-top:10vh ;
+    width: 300px;
+    min-height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    resize: none; 
+    overflow-y: hidden;
+}
+
+@media (max-width:920px){
+
+    .retour_acceuil{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .retour_acceuil img {
+        margin-left: 20vw;
+    }
+
+
+    .loupe input{
+        display: none;
+    }
+
+    .partie1{
+        gap: 2vh;
+        margin-left: 9vw;
+    }
+
+    .votre_panier{
+        font-size: 50%;
+    }
+
+    .retour_achat{
+        font-size: 50%;
+    }
+
+    .connexion{
+        font-size: 70%;
+        margin-left: 30vw;
+    }
+
+    .partie2{
+        font-size: 80%;
+        margin-left:40vw ;
+    }
+
+    .method_paiement{
+        font-size: 25%;
+        margin-left:25vw ;
+        margin-left:30vw;
+
+    }
+
+    textarea{
+        width: 50vw;
+    }
+
+
+    
+
+   
+}

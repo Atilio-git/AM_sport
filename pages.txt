@@ -1,0 +1,38 @@
+-inscrpition
+-profil
+-login 
+-logout 
+-reset password                   
+-panier
+-page de paiement
+-avis des clients 
+-historique des commandes
+-profil  
+♥page admin♥
+----foot----
+→adultes 
+//maillots 
+//accessoires
+
+→enfants 
+//maillots
+//accessoires
+
+---basket---
+→adultes 
+//maillots 
+//accessoires
+
+→enfants 
+//maillots
+//accessoires
+
+---tennis---
+→adultes 
+//maillots 
+//accessoires
+
+→enfants 
+//maillots
+//accessoires
+
