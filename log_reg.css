@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* register */
+
+.register-body{
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/f4/1c/stadio-santiago-bernabeu.jpg?w=900&h=500&s=1) ;
+    backdrop-filter: blur(10px);
+}
+
+
+.register_container{
+    background: #f3eeee;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    /* Box-shadow : horizontal vertical flou étalement couleur */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register_container h2{
+    color: rgb(191, 110, 10);
+}
+
+.register_card{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-bottom: 5%;
+}
+
+input :hover{
+    border-color: black;
+}
+.sous_formulaire{
+    display: flex;
+    margin-top: 8%;
+    gap: 2%;
+    justify-content: space-between;
+}
+
+.submit-btn{
+    background-color: green;
+}
+
+
+
+/*login.css  */
+
+.login-body{
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(https://www.papierpeintpanoramique.be/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/1/w12020-small.jpg) ;
+    backdrop-filter: blur(10px);
+}
+
+.login_container{
+    background: #f3eeee;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    /* Box-shadow : horizontal vertical flou étalement couleur */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.submit-btn{
+    background-color: black;
+    color: #ddd;
+}
+
+a{
+    text-decoration: none;
+    padding: 2px 2%;
+}
+
+/* reset_password */
+
+.reset_container{
+    background: #f3eeee;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    /* Box-shadow : horizontal vertical flou étalement couleur */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2{
+    color: rgb(10, 61, 191);
+}
+
+.register_card{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.reset-body{
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/f4/1c/stadio-santiago-bernabeu.jpg?w=900&h=500&s=1) ;
+    backdrop-filter: blur(10px);
+}
+
+
+.alert alert-success{
+    background-color: green;
+}
+
+
+/* admin */
+
+.admin-body{
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.admin-container{
+    background: #f3eeee;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    /* Box-shadow : horizontal vertical flou étalement couleur */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container ul{
+    list-style-type:none;
+}
+
+.admin-container h2{
+    color: red;
+}
+
+
+/* users */
+.action_users{
+    display: flex;
+    gap: 25px;
+}
+.delete_user{
+    background-color: red;
+    color: #ddd;
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+
+
+/*add_articles*/
+
+.add_body{
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.add_container{
+    background: #f3eeee;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    /* Box-shadow : horizontal vertical flou étalement couleur */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+}
+
+
+.taille{
+    display: flex;
+    text-align: justify;
+}
+
+/* articles.php */
+.action_article{
+    display: flex;
+    gap: 25px;
+}
+.delete_art{
+    background-color: red;
+    color: #ddd;
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.update_art{
+    background-color: blue;
+    height: 25px;
+    color: #ddd;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+/* view_article */
+
+body {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.view_card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.view_card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.view_card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.view_card p {
+    color: #555;
+    margin: 8px 0;
+}
+
+.view_card .prix {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0099ff;
+    margin: 15px 0;
+}
+
+.btn-commande {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+    background: #0099ff;
+    color: white;
+}
+
+.btn-commande:hover {
+    background: #0077cc;
+}
+

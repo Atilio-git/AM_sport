@@ -1,0 +1,204 @@
+/* ------------ RESET ------------ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f2f2f2;
+    overflow-x: hidden;
+    color: #222;
+}
+
+/* ------------ SIDEBAR ------------ */
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background: #0d0d0d;
+    padding: 30px 20px;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    display: block;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.sidebar ul li a:hover {
+    background: #1b1b1b;
+}
+
+.logout a {
+    background: #b00020;
+}
+.logout a:hover {
+    background: #d00028;
+}
+
+.social a img {
+    width: 32px;
+    margin-right: 10px;
+}
+
+/* ------------ HERO ------------ */
+.hero {
+    margin-left: 250px;
+    height: 100vh;
+    background: url("https://fr.reformsports.com/oachoata/2020/09/spor-sahasi-yapiminda-dikkat-edilmesi-gerekenler.jpg");
+    width: 100%;
+    backdrop-filter: blur(10px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+.hero-title {
+    font-size: 90px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    position: relative;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    position: relative;
+    color: white;
+}
+
+.cta {
+    position: relative;
+    margin-top: 25px;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: black;
+    background: #00ff99;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    transform: scale(1.08);
+    background: #00d181;
+}
+
+/* ------------ SECTIONS ------------ */
+.section, .services {
+    margin-left: 250px;
+    padding: 80px 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    margin: 15px 0 20px;
+    padding: 10px 20px;
+    background: #0099ff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0077cc;
+}
+
+/* ------------ SERVICES ------------ */
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.service {
+    text-align: center;
+    width: 250px;
+}
+
+.service span {
+    font-size: 50px;
+}
+
+.footer {
+    margin-left: 250px;
+    padding: 20px;
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+}
+
+/* ------------ RESPONSIVE ------------ */
+@media (max-width: 900px) {
+    .sidebar {
+        width: 34.95vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        display: none;
+    }
+    .hero, .section, .services, .footer {
+        margin-left: 0;
+    }
+    .hero-title {
+        font-size: 55px;
+    }
+}

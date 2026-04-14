@@ -1,16 +1,13 @@
 <?php
-
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 $host ='localhost';
 $DB_USER = 'root';
 $DB_PASS = 'root';
 
-try{
+    try{
     $pdo = new PDO("mysql:host=$host",$DB_USER,$DB_PASS);
 
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    return $pdo;
 
     
     $pdo->exec("CREATE DATABASE IF NOT EXISTS AM_SPORT ");
@@ -106,6 +103,8 @@ try{
         REFERENCES clients (id_client)
     ) ENGINE=InnoDB";
 
+  
+
 
     $pdo->exec($sql1);
     $pdo->exec($sql2);
@@ -122,3 +121,6 @@ try{
 catch(PDOException $pe){
     echo"ERREUR : ".$pe->getMessage();
 }
+
+
+
